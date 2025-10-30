@@ -1,8 +1,8 @@
-# Uji Kompetensi Soal 1
+# Uji Kompetensi DDP
 
 Mata Kuliah Dasar Pemrograman, dengan bahasa C++
 
-## Soal
+## Soal 1
 ```bash
 Buat program untuk dapat konversi suatu bilangan ke dalam jam menit dan detik.
 Contoh output program:
@@ -21,3 +21,24 @@ Hasil Konversi:
 
 ## Penjelasan
 Program membagi total detik jadi satuan waktu
+
+---
+
+## Soal 2
+```bash
+Modifikasi program di konversi detik, ketika dimasukkan 100000 hasil konversinya
+bukan: 100000 detik = 27 Jam, 46 Menit, 40 Detik.
+Tapi 
+Hasil Konversi:
+100000 detik = 1 Hari, 3 Jam, 46 Menit, 40 Detik.
+```
+
+## Hasil
+ - User melakukan input 100 Ribu detik dan setelah di konversi maka hasilnya menjadi 1 Hari, 3 Jam, 46 Menit, 40 Detik.
+
+<img width="478" height="132" alt="image" src="https://github.com/user-attachments/assets/4359f0d3-e96b-40f9-a0df-9d7acf605836" />
+
+## Penjelasan
+
+kenapa bukan 100000 detik = 27 Jam, 46 Menit, 40 Detik?, karena ditambah konversi ke satuan hari.
+ 
