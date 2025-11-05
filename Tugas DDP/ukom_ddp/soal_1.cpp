@@ -2,29 +2,37 @@
 using namespace std;
 
 int main() {
-    int dkt;
+    long long bpkb;
+
     cout << "Masukkan bilangan >1 (satuan detik)\n >>";
-    if (!(cin >> dkt)) {
+    if (!(cin >> bpkb)) {
         return 0;
     }
 
-    //mecegah var nya sama seperti yang lain pak hehe
-    //dkt = var utama 
-    //hts = var jam
-    //date = var sisa
-    //aio = var menit
-    //b80 = var detik
+    // merubah nama var biar tidak sama seperti yang lain
+    // bppkb = var utama
+    // aduh = jam
+    // creamsie = menit
+    // LA = detik
+    // stnk = var dari hasil sisa perhitungan
 
-    int hts = dkt / 3600;
-    int date = dkt % 3600;
-    int aio = date / 60;
-    int b80 = date % 60;
+    long long aduh = bpkb / 3600;
+    long long stnk = bpkb % 3600;
+    long long creamsie = stnk / 60;
+    long long LA = stnk % 60;
 
-    cout << "Hasil Konversi :\n";
-    cout << dkt << " detik : "
-         << hts << " Jam, "
-         << aio << " Menit, "
-         << b80 << " Detik." << endl;
+    cout << "Hasil Konversi Nya :\n";
+    cout << bpkb << " detik : "
+              << aduh << " Jam, "
+              << creamsie << " Menit, "
+              << LA << " Detik." << '\n';
+
+    // Penjelasan perhitungan
+    cout << "\nPenjelasan:" << '\n';
+    cout << "- 1 jam : 3600 detik, jadi Jam : " << bpkb << " / 3600 : " << aduh << '\n';
+    cout << "- Sisa setelah jam : " << bpkb << " % 3600 : " << stnk << '\n';
+    cout << "- 1 menit : 60 detik, jadi Menit : " << stnk << " / 60 : " << creamsie << '\n';
+    cout << "- Sisa detik : " << stnk << " % 60 : " << LA << '\n';
 
     return 0;
 }
