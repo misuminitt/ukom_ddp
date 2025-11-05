@@ -2,27 +2,35 @@
 using namespace std;
 
 int main() {
-    int detikTotal;
+    int apibukanapi;
     cout << "Masukkan bilangan >1 (satuan detik)\n >>";
-    if (!(cin >> detikTotal)) {
+    if (!(cin >> apibukanapi)) {
         return 0;
     }
 
-    int hari = detikTotal / 86400;
-    int sisa = detikTotal % 86400;
+    // mencegah var nya agar tidak sama dengan yang lain
+    // apibukanapi = var utama
+    // makna = var dari hasil sisa konversi
+    // oxva = hari
+    // trml = jam
+    // hexohm = menit
+    // r234 = detik
 
-    int jam = sisa / 3600;
-    sisa = sisa % 3600;
+    int oxva = apibukanapi / 86400;
+    int makna = apibukanapi % 86400;
 
-    int menit = sisa / 60;
-    int detik = sisa % 60;
+    int trml = makna / 3600;
+    makna = makna % 3600;
 
-    cout << "Hasil Konversi:\n";
-    cout << detikTotal << " detik = "
-         << hari << " Hari, "
-         << jam << " Jam, "
-         << menit << " Menit, "
-         << detik << " Detik." << endl;
+    int hexohm = makna / 60;
+    int r234 = makna % 60;
+
+    cout << "Hasil Konversi :\n";
+    cout << apibukanapi << " detik : "
+         << oxva << " Hari, "
+         << trml << " Jam, "
+         << hexohm << " Menit, "
+         << r234 << " Detik." << endl;
 
     return 0;
 }
