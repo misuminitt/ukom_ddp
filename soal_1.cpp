@@ -1,23 +1,30 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    long long totalDetik;
-
-    std::cout << "Masukkan bilangan >1 (satuan detik)\n >>";
-    if (!(std::cin >> totalDetik)) {
+    int dkt;
+    cout << "Masukkan bilangan >1 (satuan detik)\n >>";
+    if (!(cin >> dkt)) {
         return 0;
     }
 
-    long long jam = totalDetik / 3600;
-    long long sisa = totalDetik % 3600;
-    long long menit = sisa / 60;
-    long long detik = sisa % 60;
+    //mecegah var nya sama seperti yang lain pak hehe
+    //dkt = var utama 
+    //hts = var jam
+    //date = var sisa
+    //aio = var menit
+    //b80 = var detik
 
-    std::cout << "Hasil Konversi:\n";
-    std::cout << totalDetik << " detik = "
-              << jam << " Jam, "
-              << menit << " Menit, "
-              << detik << " Detik." << std::endl;
+    int hts = dkt / 3600;
+    int date = dkt % 3600;
+    int aio = date / 60;
+    int b80 = date % 60;
+
+    cout << "Hasil Konversi :\n";
+    cout << dkt << " detik : "
+         << hts << " Jam, "
+         << aio << " Menit, "
+         << b80 << " Detik." << endl;
 
     return 0;
 }
