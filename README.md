@@ -12,12 +12,14 @@ Hasil Konversi:
 50000 detik = 13 Jam, 53 Menit, 20 Detik.
 ```
 
+
+
 ## Hasil
- - Gambar yang 1, user melakukan input 100 Ribu detik dan setelah di konversi maka hasilnya menjadi 277 Jam, 46 Menit, 40 Detik.
+ - Gambar yang 1, user melakukan input 1 Juta detik dan setelah di konversi maka hasilnya menjadi 277 Jam, 46 Menit, 40 Detik.
  - Gambar yang 2, user melakukan input 50 Ribu detik dan setelah di konversi maka hasilnya menjadi 13 Jam, 53 Menit, 20 Detik..
  
-<img width="462" height="174" alt="image" src="https://github.com/user-attachments/assets/a66d3782-1407-4d1e-90da-99682d9f034d" />
-<img width="462" height="174" alt="image" src="https://github.com/user-attachments/assets/658e3b41-96f0-47ef-9930-ade780702e65" />
+<img width="459" height="113" alt="image" src="https://github.com/user-attachments/assets/a3585315-566b-46f0-aca1-576a8ae4d79c" />
+<img width="406" height="109" alt="image" src="https://github.com/user-attachments/assets/6778960c-f81a-438b-9c9e-64a0418f3758" />
 
 ## Penjelasan
 Program membagi total detik jadi satuan waktu
@@ -36,7 +38,7 @@ Hasil Konversi:
 ## Hasil
  - User melakukan input 100 Ribu detik dan setelah di konversi maka hasilnya menjadi 1 Hari, 3 Jam, 46 Menit, 40 Detik.
 
-<img width="462" height="206" alt="image" src="https://github.com/user-attachments/assets/ab3345fa-ce79-432e-886f-f5bc3c0198b2" />
+<img width="478" height="132" alt="image" src="https://github.com/user-attachments/assets/4359f0d3-e96b-40f9-a0df-9d7acf605836" />
 
 ## Penjelasan
 
