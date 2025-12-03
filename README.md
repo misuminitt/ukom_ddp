@@ -12,8 +12,6 @@ Hasil Konversi:
 50000 detik = 13 Jam, 53 Menit, 20 Detik.
 ```
 
-
-
 ## Hasil
  - Gambar yang 1, user melakukan input 1 Juta detik dan setelah di konversi maka hasilnya menjadi 277 Jam, 46 Menit, 40 Detik.
  - Gambar yang 2, user melakukan input 50 Ribu detik dan setelah di konversi maka hasilnya menjadi 13 Jam, 53 Menit, 20 Detik..
